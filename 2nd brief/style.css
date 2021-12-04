@@ -1,0 +1,32 @@
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+.navmenu {
+  float: left;
+  display: flex;
+}
+
+ul {
+  /*remove default list style*/
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: flex;
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/*link properties*/
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
