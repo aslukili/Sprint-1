@@ -6,16 +6,18 @@
 .navmenu {
   float: left;
   display: flex;
+  width: 100%;
 }
 
 ul {
-  /*remove default list style*/
   float: right;
+  /*remove default list style*/
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 li {
+  /*display list horizontally*/
   display: flex;
   float: left;
   padding: 15px;
@@ -29,4 +31,52 @@ a {
 }
 a:hover {
   color: red;
+}
+
+/*style for breadcrumbs*/
+.breadcrumbs {
+  width: 100%;
+  display: inline-block;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+/*style for page intro*/
+.intro {
+  width: 100%;
+}
+
+/*product card*/
+.product-card {
+  padding: 10px;
+  border: solid black 3px;
+  width: 200px;
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.article-name {
+  font-weight: bold;
+  font-size: 23px;
+}
+.rrp {
+  color: grey;
+}
+
+.price {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.saving {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
 }
