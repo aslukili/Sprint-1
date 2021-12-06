@@ -1,24 +1,25 @@
+body {
+  background-color: #f4f4f4;
+  margin-left: 15px;
+}
+
+#main-header {
+  float: left;
+  display: flex;
+}
 .logo {
   width: 100px;
   height: 50px;
 }
 
-.navmenu {
-  float: left;
-  display: flex;
-  width: 100%;
-}
-
-ul {
-  float: right;
+#navbar ul {
   /*remove default list style*/
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-li {
+#navbar li {
   /*display list horizontally*/
-  display: flex;
   float: left;
   padding: 15px;
   font-size: 18px;
@@ -27,19 +28,31 @@ li {
 /*link properties*/
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(36, 3, 80);
 }
 a:hover {
   color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: blueviolet;
 }
 
 /*style for breadcrumbs*/
-.breadcrumbs {
+#breadcrumbs {
   width: 100%;
-  display: inline-block;
+  display: flex;
 }
-.breadcrumbs a:hover {
-  text-decoration: underline;
+
+#breadcrumbs ul {
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+#breadcrumbs li {
+  float: left;
+  padding-right: 35px;
+  font-size: 18px;
 }
 
 /*style for page intro*/
@@ -49,8 +62,8 @@ a:hover {
 
 /*product card*/
 .product-card {
-  padding: 10px;
   border: solid black 3px;
+  padding: 10px;
   width: 200px;
   display: inline-block;
   margin-right: 15px;
