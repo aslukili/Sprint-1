@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 40%;
+  height: 50px;
+}
+
+#navbar {
+  margin-top: 10px;
+  text-align: center;
+}
+.navmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  border: 3px black solid;
+  display: inline;
+}
+.nav-item a {
+  text-decoration: none;
+  color: darkblue;
+}
+#breadcrumbs {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bc-list {
+  list-style-type: none;
+  display: flex;
+}
+.bc-item {
+  margin-right: 20px;
+  display: flex;
+}
+.bc-item a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.intro {
+  margin-top: 15px;
+}
+
+.articles {
+  padding: 10px;
+}
+.article {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  border: 3px goldenrod solid;
+  border-radius: 5%;
+  text-align: center;
+}
+.article img {
+  width: 100%;
+}
+
+.article-name {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.6;
+}
+.rrp {
+  color: grey;
+}
+
+.price {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.saving {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    display: flex;
+    float: left;
+  }
+  .logo img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .article {
+    width: 250px;
+    float: left;
+  }
+}
