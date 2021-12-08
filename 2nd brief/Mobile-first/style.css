@@ -106,10 +106,14 @@
   margin-top: 5px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 550px) {
   * {
     margin: 0;
     padding: 0;
+  }
+
+  main {
+    margin-left: 50px;
   }
 
   #header {
