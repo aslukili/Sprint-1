@@ -26,10 +26,12 @@
 
 .nav-item {
   width: 25%;
-  border: 3px black solid;
+  border: 3px rgb(53, 0, 83) solid;
   border-radius: 15px;
+  background-color: burlywood;
   display: inline;
 }
+
 .nav-item a {
   text-decoration: none;
   color: darkblue;
@@ -37,7 +39,6 @@
 #breadcrumbs {
   /*border: solid blueviolet 3px;*/
   margin-top: 15px;
-  text-align: center;
 }
 
 .bc-list {
@@ -52,6 +53,9 @@
 .bc-item a {
   text-decoration: none;
   color: darkblue;
+}
+.bc-item a:hover {
+  text-decoration: underline;
 }
 
 .intro {
@@ -94,6 +98,15 @@
   font-style: italic;
 }
 
+.shopbutton {
+  background-color: rgb(197, 191, 112);
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
 @media only screen and (min-width: 500px) {
   * {
     margin: 0;
@@ -112,6 +125,7 @@
   }
   .nav-item {
     margin-top: 13px;
+    max-width: 150px;
   }
 
   .bc-list {
