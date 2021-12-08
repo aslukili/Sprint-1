@@ -28,7 +28,6 @@
   width: 25%;
   border: 3px rgb(53, 0, 83) solid;
   border-radius: 15px;
-  background-color: burlywood;
   display: inline;
 }
 
@@ -144,5 +143,14 @@
     display: inline;
     justify-content: space-between;
     margin-right: 10px;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+  #breadcrumbs {
+    display: none;
   }
 }
