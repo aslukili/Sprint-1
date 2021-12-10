@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: welcome;
+  src: url(fonts/FREESCPT.TTF);
+}
+
+@font-face {
+  font-family: intro;
+  src: url(fonts/ComicSansMS3.ttf);
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 30%;
+}
+
+#welcome {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: welcome, arial;
+  font-size: 57px;
+}
+
+.intro {
+  font-family: intro, arial;
+  font-size: 23px;
+  margin-top: 0px;
+}
+
+.form {
+  background-color: rgb(255, 222, 163, 0.7);
+  padding: 10px;
+  border-radius: 15px;
+  color: #442903;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.form p {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.form label {
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: 3px solid rgb(177, 177, 177);
+  border-radius: 4px;
+  height: 35px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+#city {
+  width: 90%;
+}
+#rooms {
+  width: 90%;
+  display: inline-flex;
+  margin-top: 1em;
+}
+#rooms input {
+  flex: 2;
+}
+
+#property {
+  width: 90%;
+  display: inline-flex;
+  margin-top: 1em;
+}
+
+#property select {
+  flex: 2;
+  border: 3px solid rgb(177, 177, 177);
+  border-radius: 4px;
+  height: 35px;
+}
+
+#property select:focus {
+  border: 3px solid #555;
+}
