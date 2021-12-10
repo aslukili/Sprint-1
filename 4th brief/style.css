@@ -31,6 +31,7 @@ body {
 
 .logo img {
   width: 30%;
+  max-width: 100px;
 }
 
 #welcome {
@@ -41,6 +42,8 @@ body {
 }
 
 .intro {
+  display: inline-flex;
+  max-width: 420px;
   font-family: intro, arial;
   font-size: 23px;
   margin-top: 0px;
@@ -53,6 +56,8 @@ body {
   color: #442903;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .form p {
@@ -69,6 +74,34 @@ body {
   margin-bottom: 10px;
 }
 
+.form input {
+  font-family: "Times New Roman", Times, serif;
+  color: #e5890a;
+  font-size: 1.3em;
+  padding: 3px;
+}
+
+.form input::placeholder {
+  color: #e5890a;
+  font-size: 1.1em;
+  padding: 3px;
+}
+
+.form select {
+  color: #e5890a;
+  font-size: 1.1em;
+  padding: 3px;
+}
+.form input[type="button"] {
+  background-color: #9d5c0d;
+  border-radius: 10px;
+  width: 50%;
+  height: 50px;
+  margin-top: 1em;
+  color: white;
+  margin-bottom: 1.5em;
+  font-size: 1.8em;
+}
 input[type="text"] {
   border: 3px solid rgb(177, 177, 177);
   border-radius: 4px;
@@ -89,6 +122,8 @@ input[type="text"]:focus {
 }
 #rooms input {
   flex: 2;
+  margin-left: 37px;
+  min-width: 30px;
 }
 
 #property {
@@ -102,8 +137,30 @@ input[type="text"]:focus {
   border: 3px solid rgb(177, 177, 177);
   border-radius: 4px;
   height: 35px;
+  margin-left: 15px;
 }
 
 #property select:focus {
   border: 3px solid #555;
+}
+
+#price-range {
+  width: 90%;
+  display: inline-flex;
+  margin-top: 1em;
+}
+#price-range input {
+  min-width: 15px;
+  flex: 2;
+  margin-left: 15px;
+}
+#sold-property {
+  width: 90%;
+  display: inline-flex;
+  margin-top: 15px;
+}
+
+#sold-property input {
+  flex: 2;
+  max-width: 15px;
 }
