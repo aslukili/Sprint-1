@@ -4,11 +4,8 @@
 
 body {
   background-image: url("images/background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-attachment: local;
   text-align: -webkit-center;
 }
 

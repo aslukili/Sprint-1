@@ -1,11 +1,10 @@
 body {
   box-sizing: border-box;
   background-color: #f4f4f4;
-  margin-left: 15px;
+  margin: 15px;
 }
 
 #main-header {
-  float: left;
   display: flex;
 }
 .logo {
@@ -24,6 +23,10 @@ body {
   float: left;
   padding: 15px;
   font-size: 18px;
+}
+
+.products {
+  text-align: center;
 }
 
 /*link properties*/
